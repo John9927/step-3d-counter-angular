@@ -193,31 +193,31 @@ body {
     }
 
     &.bar1:before {
-      content: "M";
+      content: "LU";
     }
     &.bar2:before {
-      content: "T";
+      content: "MA";
     }
     &.bar3:before {
-      content: "W";
+      content: "ME";
     }
     &.bar4:before {
-      content: "T";
+      content: "GI";
     }
     &.bar5:before {
-      content: "F";
+      content: "VE";
     }
     &.bar6:before {
-      content: "S";
+      content: "SA";
     }
     &.bar7:before {
-      content: "S";
+      content: "DO";
     }
 
     span {
       font-family: "Oxygen", sans-serif;
       position: absolute;
-      //transform: rotateY(-45deg);
+      transform: rotateY(-45deg);
       transform: rotateZ(-90deg);
       border-radius: 2px;
       transform-origin: 0% 100%;
@@ -225,8 +225,8 @@ body {
       white-space: nowrap;
       text-align: right;
       left: $size + 3px;
-      //	background-color: rgba(255,255,255,0.75);
-      padding: 5px;
+      // background-color: rgba(255,255,255,0.75);
+      padding: 5.2px;
       color: black;
       font-size: 10px;
       opacity: 0;
@@ -258,39 +258,39 @@ body {
       }
 
       &.bar1 {
-        height: 200px * 0.75;
+        height: 75px * 0.75;
         transition-delay: 0.3s;
-        margin-top: -200px * 0.75;
+        margin-top: -75px * 0.75;
       }
       &.bar2 {
-        height: 100px * 0.75;
+        height: 80px * 0.75;
         transition-delay: 0.2s;
-        margin-top: -100px * 0.75;
+        margin-top: -80px * 0.75;
       }
       &.bar3 {
-        height: 150px * 0.75;
+        height: 170px * 0.75;
         transition-delay: 0.1s;
-        margin-top: -150px * 0.75;
+        margin-top: -170px * 0.75;
       }
       &.bar4 {
-        height: 240px * 0.75;
+        height: 90px * 0.75;
         transition-delay: 0s;
-        margin-top: -240px * 0.75;
+        margin-top: -90px * 0.75;
       }
       &.bar5 {
-        height: 70px * 0.75;
+        height: 140px * 0.75;
         transition-delay: 0.1s;
-        margin-top: -70px * 0.75;
+        margin-top: -140px * 0.75;
       }
       &.bar6 {
-        height: 70px * 0.75;
+        height: 190px * 0.75;
         transition-delay: 0.2s;
-        margin-top: -70px * 0.75;
+        margin-top: -190px * 0.75;
       }
       &.bar7 {
-        height: 100px * 0.75;
+        height: 220px * 0.75;
         transition-delay: 0.3s;
-        margin-top: -100px * 0.75;
+        margin-top: -220px * 0.75;
       }
 
       span {
@@ -309,10 +309,6 @@ body {
       &:after {
         background-color: rgba(0, 50, 100, 0.8);
       }
-    }
-
-    h2,
-    h3 {
     }
 
     h2 {
@@ -362,12 +358,4 @@ body {
       rgba(0, 0, 200, 0)
     );
   }
-}
-
-.info {
-  font-family: "Oxygen", sans-serif;
-  color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
 }
